@@ -2,7 +2,6 @@
 
 import numpy as np
 
-# from prettytable import PrettyTable, MSWORD_FRIENDLY, PLAIN_COLUMNS, MARKDOWN, ORGMODE, SINGLE_BORDER, DOUBLE_BORDER
 from prettytable.colortable import ColorTable, Themes
 
 
@@ -11,6 +10,7 @@ x = ColorTable(theme=Themes.OCEAN)
 board = [["", "", ""],["", "", ""],["", "", ""]]
 
 # Initializing board
+
 x.field_names= ["Tic", "Tac", "Toe"]
 x.add_rows(board)
 print(x)
